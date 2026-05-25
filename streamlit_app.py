@@ -330,7 +330,7 @@ with tab_batch:
 # ------------------------------------------------------------
 # MODULE 3: ARTIFACT ANALYTICS & HYBRID ARCHITECTURE INSPECTION
 # ------------------------------------------------------------
-with tab_analytics = tab_analytics:
+with tab_analytics:
     st.markdown("### Structural Architectural Profiler Tools")
     
     sub_tab_base, sub_tab_fuzzy = st.tabs(["🌳 Standalone Base Classifiers", "🔮 Explanatory Rule Bases"])
